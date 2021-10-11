@@ -29,8 +29,4 @@ router.post('/', async(req, res) => {
   }
 });
 
-router.get('/:dataId', (req, res) =>{
-
-});
-
 module.exports = router;

@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const Dotenv = require('dotenv-webpack');
 const port = 3000;
 const basename = '/';
 
@@ -72,7 +71,6 @@ module.exports = () => {
         filename: 'index.html',
         title: 'tpcde',
       }),
-      new Dotenv()
     ]
   };
 }

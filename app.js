@@ -1,12 +1,14 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
+const { setCors } = require('./middleware/security');
 
 require('dotenv/config'); 
 
 
 app.use(express.urlencoded({extended: true})); 
 app.use(express.json());
+app.use(setCors);
 const PORT = 3001;
 
 const dataRoute = require('./routes/data');
