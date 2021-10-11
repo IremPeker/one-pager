@@ -1,0 +1,17 @@
+$ npm install
+$ npm run dev
+
+-> you can modify the port number in "webpack.config.dev.js"
+
+* minmal requirement:
+-- use the generated data from bodyData.js, headerFooterData.js and sidebarData.js to implement the layout described in "docs/desc.jpg"
+-- the look and feel is shown in "docs/result.JPG" and "docs/result.mp4"
+
+** advanced requirement
+-- write a small API (any language, any Framework) to provide the data generated from bodyData.js, headerFooterData.js and sidebarData.js
+-- request the data from this API to implement the layout described in "docs/desc.jpg"
+-- the look and feel is shown in "docs/result.JPG" and "docs/result.mp4"
+
+- notice:
+-- this project setup is to help you getting started.
+-- you do not need to use this setup or react, you can use your preferred framework or even write every thing in vanilla JavaScript and css/html.
